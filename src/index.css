@@ -10832,3 +10832,20 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+
+.bg-dark {
+  /* background-image: url('pexels-jacob-colvin-1761279.jpg'); */
+  background-size: cover;
+  background-position: center;
+}
+
+
+.bg-professional-green {
+  background-color: #026b08; /* Example green color */
+}
+
+.bg-image {
+  background-image: url('pexels-jacob-colvin-1761279.jpg'); */
+  background-size: cover;
+  background-position: center;
+}
