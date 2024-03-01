@@ -10862,6 +10862,12 @@ textarea.form-control-lg {
   z-index: 1; /* Place it behind the text */
 }
 
+.lime-logo{
+  margin-right: 10px;
+  width: 50px;  /* Adjust the width as needed */
+  height: auto;
+}
+
 /* Ensure text and other elements are positioned above the overlay */
 .text-container {
   position: relative;
