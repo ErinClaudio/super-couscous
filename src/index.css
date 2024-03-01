@@ -10841,11 +10841,34 @@ textarea.form-control-lg {
 
 
 .bg-professional-green {
-  background-color: #026b08; /* Example green color */
+  background-color: #24bd13; /* Example green color */
 }
 
 .bg-image {
-  background-image: url('pexels-jacob-colvin-1761279.jpg'); */
+  position: relative;
+  background-image: url('pexels-jacob-colvin-1761279.jpg'); 
   background-size: cover;
   background-position: center;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2); /* Adjust color and opacity as needed */
+  z-index: 1; /* Place it behind the text */
+}
+
+/* Ensure text and other elements are positioned above the overlay */
+.text-container {
+  position: relative;
+  display: inline-block; /* This will make the container as wide as its content */
+}
+
+.text-container > *, .text-container .btn {
+  position: relative;
+  z-index: 2;
 }
